@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="com.exemplo.todo.IntroController" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <VBox spacing="10" alignment="CENTER">
+        <Text text="Bem-vindo ao Todo List" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+        <Text text="Organize suas tarefas diárias com facilidade e produtividade." style="-fx-font-size: 16px;"/>
+        <Button fx:id="startButton" text="Começar" onAction="#goToMainView"/>
+        
+        <ImageView fx:id="darkSoulsGif" fitWidth="400" preserveRatio="true">
+            <image>
+                <Image url="@com/exemplo/todo/alexanderzinho.gif" />
+            </image>
+        </ImageView>
+    </VBox>
+</AnchorPane>

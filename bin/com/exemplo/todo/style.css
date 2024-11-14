@@ -1,0 +1,92 @@
+/*  Estilo para a janela principal */
+
+.root {
+	-fx-background-color: #f0f4f8;
+	-fx-font-family: 'Arial', sans-serif;
+}
+
+/* Estilo para a lista de tarefas */
+
+.list-view {
+	-fx-background-color: #ffffff;
+	-fx-border-color: #FF1493;
+	-fx-border-radius: 8;
+	-fx-background-radius: 8;
+	-fx-padding: 8;
+}
+
+/* Estilo dos itens da lista */
+.list-cell {
+    -fx-padding: 8;
+    -fx-background-color: #FF1493;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0.2, 0, 1);
+    -fx-font-size: 14px;
+}
+
+/* Estilo dos botões */
+.button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 8 15;
+    -fx-cursor: hand;
+}
+
+/* Efeito hover nos botões */
+.button:hover {
+    -fx-background-color: #388e3c;
+}
+
+/* Efeito de clique nos botões */
+.button:pressed {
+    -fx-background-color: #2e7d32;
+}
+
+/* Estilo para o botão de delete */
+.button-delete {
+    -fx-background-color: #f44336;
+}
+
+.button-delete:hover {
+    -fx-background-color: #d32f2f;
+}
+
+/* Animação ao passar o mouse sobre os itens */
+.list-cell:hover {
+    -fx-background-color: #00CED1;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+/* Estilo da Tela de Introdução */
+.vbox {
+    -fx-background-color: #f0f4f8;
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
+
+.text {
+    -fx-fill: #333;
+}
+
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+
+
